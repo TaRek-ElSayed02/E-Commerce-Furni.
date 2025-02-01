@@ -1,0 +1,10 @@
+.App{
+    text-align: center;
+    background-color: #3B5D50;
+    height: 83vh;
+}
+/*#6A6A6A*/
+.container{
+    max-width:85%;
+    margin: 0 auto;
+}
