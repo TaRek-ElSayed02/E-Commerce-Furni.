@@ -9,7 +9,7 @@ const Whyus = () => {
         <div className="whyus py-2 mt-5 row ">
             <div className="choose col-lg-6 col-md-12 col-sm-12 col-xs-3">
                 <h2 className="choosetitle">Why Choose Us</h2>
-                <p className="choosedescription">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+                <p className="choosedescription mb-5">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
 
                 <div className="pros">
                     <div className="pro-cards ">
