@@ -27,3 +27,15 @@
     font-weight: 700;
     border-radius: 50px;
 }
+
+
+@media screen and (max-width: 768px) {  
+    .craft-content{
+        padding-top: 350px;
+    }
+}
+@media screen and (max-width: 432px) {  
+    .craft-content{
+        padding-top: 500px;
+    }
+}

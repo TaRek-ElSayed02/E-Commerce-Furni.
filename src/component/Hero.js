@@ -17,7 +17,7 @@ const Hero = (props) => {
                         <button>Explore</button>
                     </div>
             </div>
-            <div className='hero-image col-lg-7'>
+            <div className='hero-image col-lg-7 col-md-12'>
             <img src={couchImage} alt='Hero section image' />
             </div>
         </div>

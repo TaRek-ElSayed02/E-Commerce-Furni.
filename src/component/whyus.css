@@ -1,0 +1,72 @@
+.choose {
+    text-align: left;
+    font-family: "Inter", sans-serif;
+}
+
+.choose .choosedescription {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 24px;
+    /* width: 80%; */
+}
+
+.pros {
+    display: flex;
+    flex-wrap: wrap;
+    width: 110%;
+    /* gap: 20px;  */
+
+}
+
+.pro-cards {
+    width: 45.5%;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.pro-cards h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pro-cards p {
+    font-size: 14px;
+    color: #6a6a6a;
+    width: 100%;
+}
+
+.pro-cards i {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 30px;
+    position: relative;
+    z-index: -1;
+}
+
+
+.pro-cards i::after {
+    content: "";
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    background: rgba(59, 93, 80, 0.2);
+    border-radius: 50%;
+    top: 80%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+@media screen and (max-width: 430px) {
+    .pro-cards {
+        width: 43%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .pro-cards {
+        width: 40%;
+    }
+}
