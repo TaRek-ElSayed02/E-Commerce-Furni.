@@ -1,0 +1,69 @@
+.hero{
+    min-height: 74vh;
+}
+
+.hero-content{
+    text-align: left ;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+.hero-content p{
+    font-size: 14px;
+    font-weight: 500;
+    width: 85%;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 28px;
+}
+
+.hero-buttons{
+    margin-top: 20px;
+}
+
+.hero-buttons button{
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.hero-buttons button:nth-child(1){
+    background-color: #f9bf29;
+    color: black;
+    border: 1px solid #3B5D50;
+    margin-right: 10px;
+}
+
+.hero-buttons button:nth-child(2){
+    background-color: transparent;
+    color: white;
+    border: 2px solid gray;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-buttons button:nth-child(2):hover{
+    border: 2px solid white;
+}
+
+.hero-image{
+    position: relative;
+    z-index: 2;
+}
+
+.hero-image::after{
+    content: "";
+    position: absolute;
+    width: 255px;
+    height: 217px;
+    background-image: url(./dots-light.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -100px;
+    top: 30px;
+    z-index: -1;
+}
