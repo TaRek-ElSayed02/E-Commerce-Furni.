@@ -13,7 +13,7 @@ const HelpU = () => {
                 <img src={img3} />
             </div>
 
-            <div class="help-text col-lg-5 ps-lg-5 col-md-12 col-sm-12">
+            <div class="help-text col-lg-5 ps-lg-5 col-md-12 col-sm-12 ">
                 <h2 class="section-title mb-4">We Help You Make Modern Interior Design</h2>
                 <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
 
