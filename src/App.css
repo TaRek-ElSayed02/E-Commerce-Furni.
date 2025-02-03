@@ -17,3 +17,11 @@
    }
 }
 
+@media screen and (width: 2560px) {  
+    .App{
+     height: 70vh;
+     margin-bottom: 150px;
+    }
+ }
+ 
+ 

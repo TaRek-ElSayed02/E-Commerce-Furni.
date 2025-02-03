@@ -1,3 +1,10 @@
+
+
+.whyus{
+    padding-top: 100px;
+    /* margin-top: 150px; */
+}
+
 .choose {
     text-align: left;
     font-family: "Inter", sans-serif;
@@ -61,6 +68,33 @@
     z-index: 1;
 }
 
+.whyus-image {
+    position: relative; /* Ensures the pseudo-element is positioned relative to this container */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.whyus-image img {
+    width: 83%;
+    border-radius: 20px;
+    position: relative; /* Keeps the image positioned normally */
+}
+
+.whyus-image::before {
+    position: absolute;
+    content: "";
+    width: 255px;
+    height: 217px;
+    background-image: url(./dots-yellow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: translate(-147%, -40%);
+    z-index: -1;
+}
+
+
+
+
 @media screen and (max-width: 430px) {
     .pro-cards {
         width: 43%;
@@ -71,3 +105,26 @@
         width: 40%;
     }
 }
+
+
+@media screen and (max-width: 1024px) { /* Ensure proper spacing */
+    .whyus-image::before {
+        transform: translate(-90%, -40%);
+    }
+}
+@media screen and (max-width: 768px) { 
+    .whyus-image {
+        display: flex; /* Make the parent a flex container */
+        justify-content: flex-start; /* Align image to the left */
+    }
+
+    .whyus-image img {
+        width: 100%; 
+        margin-top:30px ;
+    }
+    .whyus-image::before {
+        transform: translate(-40%, -21%);
+    }
+
+}
+
