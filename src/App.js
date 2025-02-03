@@ -7,6 +7,7 @@ import '../src/component/couch.png'
 import Crafted from './component/Crafted.js';
 import Whyus from './component/Whyus.js';
 import '../src/component/Whyus.js';
+import HelpU from './component/HelpU.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Hero title="Modern Interior Design Studio" description="Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique." />
       <Crafted />
       <Whyus />
+      <HelpU />
       </div>
     </div>
   );
