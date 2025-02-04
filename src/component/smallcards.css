@@ -61,12 +61,6 @@
     font-family: "Inter", sans-serif;
 }
 
-/* @media screen  and (max-width: 768px) {
-    .smallcard{
-        width: 50%;
-        margin-top: 20px;
-    }
-} */
 @media screen  and (max-width: 426px) {
     .smallcard{
         width: 100%;

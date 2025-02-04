@@ -23,7 +23,7 @@ const SmallCards = function () {
                     <img src={img2} alt="chair product2" />
                 </div>
                 <div className="smallcard-content">
-                    <h3>Modern Chair</h3>
+                    <h3>Kruzo Aero Chair</h3>
                     <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
                     <a href="#">Read More</a>
                 </div>
@@ -33,7 +33,7 @@ const SmallCards = function () {
                     <img src={img3} alt="chair product3" />
                 </div>
                 <div className="smallcard-content">
-                    <h3>Classic Chair</h3>
+                    <h3>Ergonomic Chair</h3>
                     <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
                     <a href="#">Read More</a>
                 </div>
