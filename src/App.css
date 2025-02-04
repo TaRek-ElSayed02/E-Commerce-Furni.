@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 .App{
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     background-color: #3B5D50;
     height: 88vh;
 }
 /*#6A6A6A*/
 .container{
-     
+     max-width: 85%;
     margin: 0 auto;
 }
 
