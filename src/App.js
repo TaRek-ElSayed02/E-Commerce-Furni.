@@ -9,17 +9,19 @@ import Whyus from './component/Whyus.js';
 import '../src/component/Whyus.js';
 import HelpU from './component/HelpU.js';
 import SmallCards from './component/SmallCards.js';
+import Testmintional from './component/Testmintional.js';
 
 function App() {
   return (
     <div className="App">
-      <div className='container'>
+      <div style={{width:"200%"}} className='container'>
       <Navbar />
       <Hero title="Modern Interior Design Studio" description="Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique." />
       <Crafted />
       <Whyus />
       <HelpU />
       <SmallCards />
+      <Testmintional />
       </div>
     </div>
   );
