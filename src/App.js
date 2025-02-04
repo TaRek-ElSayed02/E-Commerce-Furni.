@@ -8,6 +8,7 @@ import Crafted from './component/Crafted.js';
 import Whyus from './component/Whyus.js';
 import '../src/component/Whyus.js';
 import HelpU from './component/HelpU.js';
+import SmallCards from './component/SmallCards.js';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Crafted />
       <Whyus />
       <HelpU />
+      <SmallCards />
       </div>
     </div>
   );
